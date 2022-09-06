@@ -29,5 +29,5 @@ jobs:
     - run: npm ci
     - run: git config user.email "fakhretarabay@gmail.com"
     - run: git config user.name "fakhr"
-    - run: git run build
+    - run: npm run build
     - run: gh-pages -d build
