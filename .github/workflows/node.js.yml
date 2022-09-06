@@ -26,7 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm i
+    - run: npm ci
     - run: git config user.email "fakhretarabay@gmail.com"
     - run: git config user.name "fakhr"
-    - run: npm run deploy
+    - run: git run build
+    - run: gh-pages -d build
