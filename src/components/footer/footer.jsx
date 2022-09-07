@@ -39,7 +39,12 @@ const Footer = () => {
                 <TextField
                     className={css.tField}
                     placeholder='Type your email ...'
-                    sx={{ input: { color: "white",fontSize:"10px" }, width: "100%", backgroundColor: "#5051a4", borderRadius: "5px", margin: "20px 0px", "::placeholder": { color: "white", opacity: "70%" } }}
+                    sx={{ input: { color: "white", fontSize: "10px" },
+                        width: "100%",
+                        backgroundColor: "#5051a4",
+                        borderRadius: "5px",
+                        margin: "20px 0px",
+                        "::placeholder": { color: "white", opacity: "70%" } }}
                 />
             </div>
         </div>
