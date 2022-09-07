@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Ejada_1/static/css/main.8e4d45aa.css",
-    "main.js": "/Ejada_1/static/js/main.8970a0b3.js",
+    "main.css": "/Ejada_1/static/css/main.49cd0676.css",
+    "main.js": "/Ejada_1/static/js/main.2934f345.js",
     "static/media/meeting.svg": "/Ejada_1/static/media/meeting.a6f82af4f2255d7b8ad37bbf20723152.svg",
     "static/media/num.svg": "/Ejada_1/static/media/num.7cea337ed955bddbd130b71af543ecdd.svg",
     "static/media/people.svg": "/Ejada_1/static/media/people.3683f4b15498e65b55b29946fc227142.svg",
     "static/media/person.svg": "/Ejada_1/static/media/person.298ec9ee3da79b4d7c4db1916d6119f5.svg",
     "static/media/call.svg": "/Ejada_1/static/media/call.7f2fba36208ff5b83ded56b58f02bb0e.svg",
     "index.html": "/Ejada_1/index.html",
-    "main.8e4d45aa.css.map": "/Ejada_1/static/css/main.8e4d45aa.css.map",
-    "main.8970a0b3.js.map": "/Ejada_1/static/js/main.8970a0b3.js.map"
+    "main.49cd0676.css.map": "/Ejada_1/static/css/main.49cd0676.css.map",
+    "main.2934f345.js.map": "/Ejada_1/static/js/main.2934f345.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e4d45aa.css",
-    "static/js/main.8970a0b3.js"
+    "static/css/main.49cd0676.css",
+    "static/js/main.2934f345.js"
   ]
 }
