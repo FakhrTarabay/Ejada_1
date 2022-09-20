@@ -1,0 +1,44 @@
+@mixin flex($dir) {
+    display: flex;
+    flex-direction: $dir;
+}
+
+@mixin font($size, $weight: 400, $color: white) {
+    font: {
+        family: 'Poppins', sans-serif;
+        size: $size;
+        weight: $weight;
+
+    }
+    color:$color;
+}
+
+@mixin titleSet {
+    @include font(40px, 900, #101030);
+}
+
+@mixin divSet {
+    @include flex(row);
+    padding: 130px 13%;
+    justify-content: space-around;
+    background-color: white;
+}
+
+@mixin colSet {
+    @include flex(column);
+    align-items: flex-start;
+    width: 45%;
+}
+
+@mixin rowSet {
+    @include flex(row);
+    padding: 40px 0px;
+}
+
+@mixin textSet {
+    opacity: 80%;
+    @include font(15px, 400, #656576);
+    text-decoration: none;
+    margin: 5px 0px;
+    transition: color 0.2s linear;
+}

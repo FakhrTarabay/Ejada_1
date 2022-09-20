@@ -1,0 +1,43 @@
+@import "../scss/mixins.scss";
+
+
+.div {
+    @include flex(column);
+    padding: 130px 13%;
+    background-color: #f4f4f8;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    @include font(40px, 900, #101030);
+}
+
+.text {
+    opacity: 50%;
+    margin: 10px;
+}
+
+.row {
+    @include rowSet;
+}
+
+.row2 {
+    @include rowSet;
+    padding: 0px;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.col {
+    @include flex(column);
+}
+
+.tile {
+    @include flex(column);
+    width: 90%;
+    padding: 35px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 7px;
+}

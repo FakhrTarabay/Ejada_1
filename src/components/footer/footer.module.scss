@@ -1,0 +1,30 @@
+@use "../scss/mixins.scss";
+
+.div {
+    @include flex(row);
+    padding: 130px 13%;
+    background-color: #101030;
+    justify-content: space-evenly;
+}
+
+.col {
+    @include flex(column);
+    margin: 35px;
+}
+
+.title {
+    @include font(25px, 400, white);
+    margin-bottom: 20px;
+}
+
+.text {
+    @include textSet;
+}
+
+.text2 {
+    @extend text;
+
+    &:hover {
+        color: white;
+    }
+}

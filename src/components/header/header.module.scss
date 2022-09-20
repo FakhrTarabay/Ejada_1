@@ -1,0 +1,6 @@
+@import "../scss/mixins.scss";
+
+.header {
+    @include flex(column);
+    background-color: #494a9c;
+}

@@ -1,0 +1,46 @@
+@import "../scss/mixins.scss";
+
+.div {
+    @include divSet;
+}
+
+.div2 {
+    @include divSet;
+    background-color: #3a3b93;
+}
+
+.col {
+    @include colSet;
+}
+
+.colImg {
+    @include colSet;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    @include titleSet;
+}
+
+.title2 {
+    @include titleSet;
+    color: white;
+}
+
+.smallerText {
+    color: #656576;
+    opacity: 80%;
+    @include font(20px);
+    padding: 30px 0px;
+}
+
+.img {
+    width: 67%;
+}
+
+.btnText {
+    color: #494a9c;
+    @include font(15px);
+    font-Weight: 700;
+}
