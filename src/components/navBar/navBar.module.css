@@ -39,4 +39,19 @@
   font-size: 15px;
   font-weight: 700;
   color: #494a9c;
+}
+
+@media screen and (max-width: 480px) {
+  .links {
+    display: none;
+  }
+  .name {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+  }
+  .navBar {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=navBar.module.css.map */

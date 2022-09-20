@@ -29,9 +29,8 @@
 }
 
 .smallerText {
-    color: #656576;
     opacity: 80%;
-    @include font(20px);
+    @include font(20px,400,#656576);
     padding: 30px 0px;
 }
 
@@ -43,4 +42,23 @@
     color: #494a9c;
     @include font(15px);
     font-Weight: 700;
+}
+
+@media screen and (max-width:480px) {
+    .div,.div2{
+        flex-direction: column;
+        padding: 50px 13%;
+    }
+    .col,.colImg{
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-bottom: 15px;
+        p{
+            text-align: center;
+        }
+        .title,.title2{
+            font-size: 35px;
+        }
+    }
 }

@@ -41,3 +41,14 @@
     background-color: white;
     border-radius: 7px;
 }
+
+@media screen and(max-width:480px) {
+    .row{
+        flex-direction: column;
+    }
+    .div{
+        .title{
+            text-align: center;
+        }
+    }
+}

@@ -14,6 +14,7 @@ const Intro = ({src}) => {
                 No SIP or Softphone Required!
             </p>
             <Button
+                className={css.btn}
                 sx={{ backgroundColor: "#d9daee", color: "#4d4e9e", textTransform: "none", ":hover": { backgroundColor: "white" },width:"130px" }}
                 size="large">
                 <span className={css.btnText}>Get started</span>

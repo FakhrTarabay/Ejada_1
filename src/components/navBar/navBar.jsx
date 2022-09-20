@@ -5,6 +5,11 @@ import Button from '@mui/material/Button';
 const NavBar = () => {
     return (
         <div className={css.navBar}>
+            <Button
+                sx={{ backgroundColor: "#d9daee", color: "#4d4e9e", textTransform: "none", ":hover": { backgroundColor: "white" },width:"20px",minWidth:"20px",height:"20xp",minHeight:"20px",position:"absolute",left:"5px",top:"5px" }}
+                size="small">
+                <span className={css.btnText}>x</span>
+            </Button>
             <span className={css.name}>aircalling</span>
             <div className={css.links}>
                 <a className={css.link} href="d">Home</a>

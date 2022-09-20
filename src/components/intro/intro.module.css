@@ -42,4 +42,32 @@
 
 .img {
   width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .col, .colImg {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .btn {
+    align-self: center;
+  }
+  .desc {
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: lightgray;
+  }
 }/*# sourceMappingURL=intro.module.css.map */

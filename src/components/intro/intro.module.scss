@@ -34,3 +34,22 @@
 .img {
     width: 80%;
 }
+@media screen and (max-width : 480px) {
+    .title{
+        @include font(40px, 700, white);
+    }
+    .intro{
+        @include flex(column);
+        justify-content: center;
+        align-items: center;
+    }
+    .col,.colImg{
+        width:100%;
+        margin-top: 20px;
+    }
+    .btn{align-self: center;}
+    .desc{
+        @include font(19px, 500, lightgray);
+    }
+
+}

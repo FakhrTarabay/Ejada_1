@@ -18,7 +18,7 @@ const Tile = ({ text, smallerText, cond, src, tCond }) => {
                             sx={{ input: { color: "white" }, width: "100%", backgroundColor: "#5051a4", borderRadius: "5px", margin: "50px 0px", "::placeholder": { color: "white", opacity: "70%" } }}
                         />}
                         <Button
-                            sx={{ backgroundColor: "#d9daee", color: "#4d4e9e", textTransform: "none", ":hover": { backgroundColor: "white" } }}
+                            sx={{ backgroundColor: "rebeccapurple", color: "#4d4e9e", textTransform: "none", ":hover": { backgroundColor: "lavender" } }}
                             size="large">
                             <span className={css.btnText}>{tCond ? "Get Started" : "Learn more"}</span>
                         </Button>
@@ -30,7 +30,7 @@ const Tile = ({ text, smallerText, cond, src, tCond }) => {
                         <p className={css.title}>{text}</p>
                         <p className={css.smallerText}>{smallerText}</p>
                         <Button
-                            sx={{ backgroundColor: "#d9daee", color: "#4d4e9e", textTransform: "none", ":hover": { backgroundColor: "white" } }}
+                            sx={{ backgroundColor: "rebeccapurple", color: "#4d4e9e", textTransform: "none", ":hover": { backgroundColor: "lavender" } }}
                             size="large">
                             <span className={css.btnText}>{tCond ? "Get Started" : "Learn more"}</span>
                         </Button>

@@ -35,3 +35,16 @@
 .btnText {
     @include font(15px, 700, #494a9c);
 }
+
+
+@media screen and (max-width : 480px) {
+    .links{
+        display: none;
+    }
+    .name {
+        @include font(2.5em, bold, white);
+    }
+    .navBar {
+        justify-content: center;
+    }
+}
