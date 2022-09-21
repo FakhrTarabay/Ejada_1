@@ -47,7 +47,7 @@ export default function Drawer({ rows }) {
   );
 
   return (
-    <div>
+    <>
       <Button
         sx={{ position: "absolute", left: "1px", top: "34px" }}
         onClick={toggleDrawer(anchor, true)}
@@ -62,6 +62,6 @@ export default function Drawer({ rows }) {
       >
         {list(anchor)}
       </SwipeableDrawer>
-    </div>
+    </>
   );
 }
